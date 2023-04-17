@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../imgs/avengers.png) ;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 10rem;
+}
+.pie {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;    
+    padding-left: 1rem;
+
+}
+
+#icono {
+    height: 10rem;
+}
+
+
+#imagen {
+    width: 10rem;
+    text-align: center;
+}
+
+h1 {
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+}
+
+/* Demo Code: */
+    body {
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Open Sans', arial, sans-serif;
+        color: #333;
+        font-size: 14px;
+        
+    }
+    /*MODIFICADOS*/
+    .projcard-img {
+        position: absolute;
+        width: 400px;
+        top: 0;
+        left: 0;
+        transition: transform 0.2s ease;
+    }
+    .titulo {
+        font-family: 'Voces', 'Open Sans', arial, sans-serif;
+        font-size: 30px;
+    }
+    .subtitulo {
+        font-family: 'Voces', 'Open Sans', arial, sans-serif;
+        font-size: 20px ;
+    }
+    .texto {
+        font-family: 'Voces', 'Open Sans', arial, sans-serif;
+        color: white;
+    }
+
+    .barra {
+        left: -2px;
+        width: 100px;
+        height: 5px;
+        margin: 10px 0;
+        border-radius: 5px;
+        background-color: #a41414;
+        transition: width 0.2s ease;
+    }
+
+
+    .projcard {
+        position: relative;
+        align-items: center;
+        width: 100%;
+        height: 25rem;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 2px solid #ddd;
+        font-size: 18px;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }  
+
+
+    .projcard:nth-child(2n) .projcard-img {
+        left: initial;
+        right: 0;
+    }
+
+    
+    .projcard-textbox {
+        position: absolute;
+        top: 7%;
+        bottom: 7%;
+        left: 430px;
+        width: calc(100% - 470px);
+        font-size: 17px;
+    }
+    .projcard-textbox::after {
+        display: none;
+        left: initial;
+        right: -55px;
+    }
+
+    
+    .projcard:nth-child(2n) .projcard-textbox {
+        left: initial;
+        right: 430px;
+    }
+
+    #capitan {
+        background-color: #457298;
+    }
+
+    #iron {
+        background-color: #B8834C;
+    }
+
+    #hawk {
+        background-color: #43466F;
+    }
+
+    #hulk {
+        background-color: #646630;
+    }
+
+    #widow {
+        background-color: #4D4D98;
+    }
+
+
+
+    #thor {
+        background-color: #74090E;
+    }
+
